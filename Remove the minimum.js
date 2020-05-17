@@ -6,6 +6,5 @@ function removeSmallest(numbers) {
         if (i !== index )
             arr.push(numbers[i]);
 
-    }
-    return arr
+    else return (n * m ) - 1;
 }
