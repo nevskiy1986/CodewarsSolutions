@@ -6,6 +6,6 @@ function sumOfDifferences(arr) {
         return Math.max(...arr) - Math.min(...arr)
 
 
-    }
+    }aracter
 
 }
