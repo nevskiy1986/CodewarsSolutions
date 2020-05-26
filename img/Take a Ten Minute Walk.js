@@ -1,4 +1,4 @@
-function isValidWalk(walk) {
+  function isValidWalk(walk) {
     if (walk.length !== 10) return false
     let ns = 0;
     let we = 0
@@ -8,7 +8,7 @@ function isValidWalk(walk) {
         else if ( 'w' ===  walk[i]) we--;
         else if ( 'e' ===  walk[i]) we++;
     }
-    return ns === 0 && we === 0
+    return ns === 0 && we === 0;
 
 
 }
